@@ -1,0 +1,11 @@
+# importing a whole module
+import math
+print(math.sqrt(25))   # Output: 5.0
+
+# importing specific function from a module
+from math import pow
+print(pow(2, 3))       # Output: 8
+
+# importing with an alias
+import math as m
+print(m.pi)            # Output: 3.141592653589793
