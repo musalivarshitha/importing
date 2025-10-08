@@ -1,0 +1,5 @@
+from my_package import module1
+import my_package.module2 as m2
+
+module1.func1()
+m2.func2()
